@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding:0;
+
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/022/725/533/small/flying-popcorn-product-showcase-for-foodgraphy-ai-generated-photo.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    font-family: Arial, sans-serif;
+}
+
+.content{
+    text-align:center;
+    background-color:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:10px;
+}
+
+h1{
+    color:red;
+    font-size:60px;
+}
+
+p{
+    color:white;
+    font-size:22px;
+}
+
+button{
+    background-color:red;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size: 20px;
+    border-radius:8px;
+    cursor: pointer;
+}
+
+ button:hover{
+    background-color: darkred;
+ }
